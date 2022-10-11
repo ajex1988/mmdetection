@@ -19,11 +19,12 @@ from .trident_resnet import TridentResNet
 # self-defined
 from .fcrn import FCRNBNRP
 from .mobilenet_v2r import MobileNetV2R
+from .mobilenet_v2r1 import MobileNetV2R1
 
 __all__ = [
     'RegNet', 'ResNet', 'ResNetV1d', 'ResNeXt', 'SSDVGG', 'HRNet',
     'MobileNetV2', 'Res2Net', 'HourglassNet', 'DetectoRS_ResNet',
     'DetectoRS_ResNeXt', 'Darknet', 'ResNeSt', 'TridentResNet', 'CSPDarknet',
     'SwinTransformer', 'PyramidVisionTransformer',
-    'PyramidVisionTransformerV2', 'EfficientNet', 'FCRNBNRP', 'MobileNetV2R'
+    'PyramidVisionTransformerV2', 'EfficientNet', 'FCRNBNRP', 'MobileNetV2R', 'MobileNetV2R1'
 ]
