@@ -16,12 +16,14 @@ from .resnext import ResNeXt
 from .ssd_vgg import SSDVGG
 from .swin import SwinTransformer
 from .trident_resnet import TridentResNet
+# self-defined
 from .fcrn import FCRNBNRP
+from .mobilenet_v2r import MobileNetV2R
 
 __all__ = [
     'RegNet', 'ResNet', 'ResNetV1d', 'ResNeXt', 'SSDVGG', 'HRNet',
     'MobileNetV2', 'Res2Net', 'HourglassNet', 'DetectoRS_ResNet',
     'DetectoRS_ResNeXt', 'Darknet', 'ResNeSt', 'TridentResNet', 'CSPDarknet',
     'SwinTransformer', 'PyramidVisionTransformer',
-    'PyramidVisionTransformerV2', 'EfficientNet', 'FCRNBNRP'
+    'PyramidVisionTransformerV2', 'EfficientNet', 'FCRNBNRP', 'MobileNetV2R'
 ]
